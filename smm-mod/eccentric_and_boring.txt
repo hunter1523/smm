@@ -1,0 +1,56 @@
+eccentric = {
+	category = personality
+	opposites = {
+		fickle
+		stubborn
+	}
+	learning = 2
+	diplomacy = -2
+
+	stress_gain_mult = 0.5
+	stress_loss_mult = 0.5
+	monthly_lifestyle_xp_gain_mult = 0.2
+	same_opinion = 10
+	flag = trait_unlocks_t2_withdraw_from_view
+
+	culture_modifier = {
+		parameter = life_is_a_joke_trait_same_culture_opinion 
+		same_culture_opinion = 5
+	}
+	
+	ruler_designer_cost = 15
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_eccentric_desc
+			}
+			desc = trait_eccentric_character_desc
+		}
+	}
+
+	ai_rationality = dominant_negative_ai_value
+	ai_honor = low_negative_ai_value
+	ai_boldness = very_high_positive_ai_value
+	ai_sociability = low_negative_ai_value
+
+	compatibility = {
+		patient = @pos_compat_high
+		arbitrary = @pos_compat_low
+		shy = @pos_compat_low
+		gregarious = @pos_compat_low
+		compassionate = @pos_compat_low
+		stubborn = @neg_compat_medium
+		fickle = @neg_compat_medium
+		zealous = @neg_compat_medium
+		just = @neg_compat_medium
+		wrathful = @neg_compat_medium
+		impatient = @neg_compat_medium
+		deceitful = @neg_compat_medium
+		paranoid = @neg_compat_medium
+	}
+	random_creation_weight = 0.05
+}
