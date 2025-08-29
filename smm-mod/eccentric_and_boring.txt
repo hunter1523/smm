@@ -8,7 +8,9 @@ eccentric = {
 
 	stress_gain_mult = 0.5
 	stress_loss_mult = 0.5
-	monthly_lifestyle_xp_gain_mult = 0.2
+	monthly_martial_lifestyle_xp_gain_mult = 0.25
+	monthly_wanderer_lifestyle_xp_gain_mult = 0.25
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.25
 	same_opinion = 10
 	flag = trait_unlocks_t2_withdraw_from_view
 
@@ -60,9 +62,11 @@ boring = {
 	stewardship = 2
 	diplomacy = -2
 
-	stress_gain_mult = 0.5
-	stress_loss_mult = 0.5
-	monthly_lifestyle_xp_gain_mult = 0.2
+	stress_gain_mult = -0.5
+	stress_loss_mult = -0.5
+	monthly_diplomacy_lifestyle_xp_gain_mult = 0.25
+	monthly_learning_lifestyle_xp_gain_mult = 0.25
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.25
 	same_opinion = 10
 
 	culture_modifier = {
@@ -104,3 +108,4 @@ boring = {
 	}
 	random_creation_weight = 0.05
 }
+
