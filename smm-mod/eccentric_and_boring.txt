@@ -36,20 +36,19 @@ eccentric = {
 	ai_rationality = dominant_negative_ai_value
 	ai_honor = low_negative_ai_value
 	ai_boldness = very_high_positive_ai_value
-	ai_sociability = low_negative_ai_value
+	ai_sociability = low_positive_ai_value
 
 	compatibility = {
-		patient = @pos_compat_high
-		arbitrary = @pos_compat_low
-		shy = @pos_compat_low
-		gregarious = @pos_compat_low
-		compassionate = @pos_compat_low
-		zealous = @neg_compat_medium
+		patient = @neg_compat_low
+		arbitrary = @pos_compat_high
+		shy = @neg_compat_low
+		gregarious = @pos_compat_high
+		zealous = @pos_compat_medium
 		just = @neg_compat_medium
-		wrathful = @neg_compat_medium
-		impatient = @neg_compat_medium
-		deceitful = @neg_compat_medium
-		paranoid = @neg_compat_medium
+		wrathful = @pos_compat_medium
+		impatient = @pos_compat_medium
+		deceitful = @poscompat_medium
+		paranoid = @pos_compat_medium
 	}
 	random_creation_weight = 0.05
 }
@@ -88,19 +87,18 @@ boring = {
 		}
 	}
 
-	ai_rationality = dominant_negative_ai_value
-	ai_honor = low_negative_ai_value
-	ai_boldness = very_high_positive_ai_value
+	ai_rationality = dominant_positive_ai_value
+	ai_honor = low_positive_ai_value
+	ai_boldness = very_high_negative_ai_value
 	ai_sociability = low_negative_ai_value
 
 	compatibility = {
-		patient = @pos_compat_high
-		arbitrary = @pos_compat_low
+		patient = @pos_compat_low
+		arbitrary = @neg_compat_high
 		shy = @pos_compat_low
-		gregarious = @pos_compat_low
-		compassionate = @pos_compat_low
+		gregarious = @neg_compat_high
 		zealous = @neg_compat_medium
-		just = @neg_compat_medium
+		just = @pos_compat_medium
 		wrathful = @neg_compat_medium
 		impatient = @neg_compat_medium
 		deceitful = @neg_compat_medium
@@ -108,4 +106,5 @@ boring = {
 	}
 	random_creation_weight = 0.05
 }
+
 
